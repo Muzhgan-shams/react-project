@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
         <Route path="/color-picker" element={<Color />}></Route>
         <Route path="/country" element={<Country />}></Route>
         <Route path="/todo" element={<Todo />}></Route>
+        <Route path="/" element={<Home />}></Route>
       </Routes>
     </>
   );
